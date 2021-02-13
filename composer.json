@@ -1,0 +1,27 @@
+{
+    "name": "saru/app",
+    "description": "Saru Application",
+    "keywords": ["framework", "saru", "php", "mvc", "app"],
+    "license": "0BSD",
+    "homepage": "https://github.com/manueltrinidad/saru-app",
+    "support": {
+        "issues": "https://github.com/manueltrinidad/saru-app/issues",
+        "docs": "https://github.com/manueltrinidad/saru-app/blob/main/README.md"
+    },
+    "authors": [
+        {
+            "name": "Manuel Trinidad Morales",
+            "email": "manuel.trinidad.mo@gmail.com",
+            "homepage": "https://manueru.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "saru/framework": "dev-main" 
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
